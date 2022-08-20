@@ -19,5 +19,5 @@ let &t_EI = "\e[2 q"
 vnoremap > >gv
 vnoremap < <gv
 
-#Show line numbers
+"Show line numbers
 set number
