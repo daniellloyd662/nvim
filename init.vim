@@ -23,7 +23,7 @@ vnoremap < <gv
 set number
 
 "Remove highlight after search 
-:let @/ = ""
+set nohlsearch
 
 "Remember code folds
 augroup remember_folds
