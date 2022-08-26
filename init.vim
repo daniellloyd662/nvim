@@ -22,6 +22,10 @@ vnoremap < <gv
 "Show line numbers
 set number
 
+"Remove highlight after search 
+:let @/ = ""
+
+"Remember code folds
 augroup remember_folds
   autocmd!
   autocmd BufWinLeave * mkview
